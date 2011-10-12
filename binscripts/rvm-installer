@@ -347,16 +347,16 @@ esac
 
 # No matter which one we are doing we install the same way, using the RVM
 #   installer script.
-flags=()
-if (( rvm_trace_flag == 1 ))
-then
-  flags+=("--trace")
-fi
+#flags=()
+#if (( rvm_trace_flag == 1 ))
+#then
+#  flags+=("--trace")
+#fi
 
-if (( rvm_debug_flag == 1 ))
-then
-  flags+=("--debug")
-fi
+#if (( rvm_debug_flag == 1 ))
+#then
+#  flags+=("--debug")
+#fi
 
 chmod +x ./scripts/install
 
