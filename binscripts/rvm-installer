@@ -361,4 +361,4 @@ esac
 chmod +x ./scripts/install
 
 # Now we run the RVM installer.
-./scripts/install ${flags[*]} --prefix "$rvm_prefix" # --path "$rvm_path"
+./scripts/install ${flags[*]}  --path "$rvm_path" # --prefix "$rvm_prefix"
